@@ -1,7 +1,33 @@
-html
-{
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
+.inputContainer
+{
+    border-start-start-radius: 30px;
+    background: linear-gradient(145deg, rgba(5, 29, 136, 0.6), rgba(5, 29, 136, 0.6));
+    box-shadow:  -10px 5px 15px rgba(255, 255, 255, 0.6);
+}
+
+.banner
+{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 20px;
+}
+
+.containers
+{
+    height: 98%;
+    border-top-right-radius: 20px;
+}
+
+.newsScroll
+{
+    width: 98%;
+    height: 75vh;
+}
+
+.footerText
+{
+    margin-top: 36vh;
+    margin-bottom: 0;
 }
